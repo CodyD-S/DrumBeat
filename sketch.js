@@ -1,4 +1,4 @@
-let beat analyzer;
+let beat, analyzer;
 // Load sound file before canvas loads so it is ready
 function preload() {
 beat = loadSound('beat.mp3');
