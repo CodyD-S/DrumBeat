@@ -29,7 +29,7 @@ let rms = 0
 if (analyzer.getLevel()){
 rms = analyzer.getLevel();
 }
-fill(127);
+fill(0, 150, 255);
 stroke(0);
 // Draw an ellipse with size based on volume
 ellipse(width / 2, height / 2, 10 + rms * 200, 10 + rms * 200);
