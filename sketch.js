@@ -7,7 +7,8 @@ beat = loadSound('beat.mp3');
 function setup() {
 let myCanvas = createCanvas(600, 400);
 myCanvas.parent('myContainer');
-
+myCanvas.style('background-color', '#1a1a2e');
+  
 analyzer = new p5.Amplitude();
 analyzer.setInput(beat);
 }
