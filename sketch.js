@@ -32,5 +32,5 @@ rms = analyzer.getLevel();
 fill(0, 150, 255);
 stroke(0);
 // Draw an ellipse with size based on volume
-ellipse(width / 2, height / 2, 10 + rms * 200, 50 + rms * 500);
+circle(width / 2, height / 2, 50 + rms * 500);
 }
